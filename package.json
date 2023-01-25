@@ -1,0 +1,15 @@
+{
+  "name": "interlaced",
+  "version": "0.0.0",
+  "description": "A double ring sharedArrayBuffer to submit/receive task and their completions",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "aurelien.vclave@yahoo.fr",
+  "license": "MIT",
+  "repository": {"url": "https://github.com/starship-jr/interlaced"},
+  "dependencies": {
+    "buffer-plus": "^1.3.0"
+  }
+}
