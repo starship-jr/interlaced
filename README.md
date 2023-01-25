@@ -9,6 +9,9 @@ When data are transmit on the worker thread, if we know the schema - how the jav
 
 For this project I plan to use the awesome [buffer-plus](https://github.com/arloliu/buffer-plus) project developed by arloliu. It is the library that allows to convert object to buffer and vice-versa. 
 
+For now, the example is the project. In the index file, you will find the main thread, serializing the object to a buffer and passing it to the sharedarraybuffer.
+The worker thread will deserialize the buffer to the object given a schema.
+
 A double ring buffer will be build on top of it.
 We send data on a first ring buffer, backed by a sharedArrayBuffer.
 When data has been processed, another ring buffer - backed by another sharedArrayBuffer- will be filled with result data.
