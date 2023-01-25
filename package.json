@@ -1,6 +1,6 @@
 {
   "name": "interlaced",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "A double ring sharedArrayBuffer to submit/receive task and their completions",
   "main": "index.js",
   "scripts": {
